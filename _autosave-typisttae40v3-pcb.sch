@@ -88,12 +88,12 @@ Wire Wire Line
 $Comp
 L Device:R_Small R?
 U 1 1 62EADDC5
-P 5600 2550
-F 0 "R?" V 5404 2550 50  0000 C CNN
-F 1 "22" V 5495 2550 50  0000 C CNN
-F 2 "" H 5600 2550 50  0001 C CNN
-F 3 "~" H 5600 2550 50  0001 C CNN
-	1    5600 2550
+P 6000 2550
+F 0 "R?" V 5804 2550 50  0000 C CNN
+F 1 "22" V 5895 2550 50  0000 C CNN
+F 2 "" H 6000 2550 50  0001 C CNN
+F 3 "~" H 6000 2550 50  0001 C CNN
+	1    6000 2550
 	0    1    1    0   
 $EndComp
 $Comp
@@ -112,7 +112,7 @@ Wire Wire Line
 Wire Wire Line
 	6100 2450 5850 2450
 Wire Wire Line
-	6800 2550 5700 2550
+	6800 2550 6100 2550
 $Comp
 L Device:C_Small C?
 U 1 1 62EB4713
@@ -376,8 +376,10 @@ Wire Wire Line
 Connection ~ 6750 1450
 Wire Wire Line
 	6750 1450 6650 1450
-Wire Wire Line
-	5200 2550 5500 2550
 Text GLabel 5850 2450 0    50   Input ~ 0
 D+
+Text GLabel 5850 2550 0    50   Input ~ 0
+D-
+Wire Wire Line
+	5900 2550 5850 2550
 $EndSCHEMATC
